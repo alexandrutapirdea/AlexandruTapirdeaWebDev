@@ -1,281 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="RO">
 
-  <head>
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="DareIT Academy,programare,programator,programatori,Bucuresti,incepator,incepatori,acreditare,acreditate,it,java
+	c++,c#,web,tehnologii,academie,curs,cursuri,profesionist,practica,cariera">
+	<meta name="description" content=" Vrei sa iti incepi cariera in IT? DareIT Academy te face programator ! 
+	DareIT este cel mai scurt drum de la incepator la profesionist. Java, C++, C# , Web ">
+	<meta name="author" content="Alexandru Tapirdea">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../CSS/stil_general.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/stil_acasa.css">
+	<link rel="icon" type="image/png" href="../img/favicon-32x32.png" sizes="32x32" />
+	<title>Cursuri de programare | DareIT Academy Bucuresti</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="head">
+			<div class="logo">
+				<img src="../img/DareITAcademy.png" class="logo" id="logo" alt="DareIT Academy"/>
+			</div>
+			<h1 class="mesaj">Bine ai venit la DareIT Academy !</h1>
+			<h1 class="mesaj"><strong>Motto: Programam azi ziua de maine</strong></h1> <!-- Utilizatorul ar trebui sa vada motto-ul inaintea altui continut; 																					crestem importanta -->
+		</header>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+		<div class="breaking-news">
+			<p class="burtiera">DareIT Academy este cel mai scurt drum de la incepator la profesionitst. Java, C++, C# , Web </p>
+		</div>
+		<nav class="nav">
+			<ul>
+				<li><a href="index.html">Acasă</a></li>
+				<li class="dropdown-indicator"><a href="#">Carieră</a>
+					<ul class="sub-menu">
+						<li><a href="alegere.html">Ce sa aleg?</a></li>
+						<li><a href="resurse.html">Resurse Utile</a></li>
+					</ul>
+				</li>
+				<li><a href="pret.html">Preț</a></li>
+				<li><a href="promotii.html">Promoții</a></li>
+				<li><a href="testimoniale.html">Testimoniale</a></li>
+				<li><a href="galerie.html">Galeria cu imagini</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
 
-    <title>Alexandru Tapirdea - Web Developer</title>
+			<select name="forma" onchange="location = this.value;">
+				<option value="index.html">Acasă</option>
+				<option value="alegere.html">Ce sa aleg?</option>
+				<option value="resurse.html">Resurse Utile</option>
+				<option value="pret.html">Pret</option>
+				<option value="promotii.html">Promoții</option>
+				<option value="testimoniale.html">Testimoniale</option>
+				<option value="galerie.html">Galeria cu imagini</option>
+				<option value="alegere.html">Ce sa aleg?</option>
+				<option value="contact.html">Contact</option>
+			</select>
+		</nav>
+		<section class="content">
+			<h2>DareIT Academy este cel mai scrut drum de la incepator la profesionist.</h2>
+			<article>
+				<h3>Programam azi ziua de maine</h3>
+				<br/>
+				<div class="slideshow">
+					<img src="../img/cariera.jpg" alt="Cariera DareIT Academy" title="Cariera" />
+					<img src="../img/programare.jpg" alt="Programare" title="Programare" />
+					<img src="../img/DareIT_FrontPage.jpg" alt="Programam azi ziua de maine" title="Motto DareIT Academy" />
+					<img src="../img/tehnologii.jpg" alt="Tehnologii si limbaje de programare" title="Limbaje de programare" />
+				</div>
+				<br/>
+				<p>Ti-am pregatit o colectie variata de cursuri de programare foarte usor de inteles.</p>
+				<p><em>DareIT Academy</em> este cel mai scurt drum de la incepator la profesionsit.</p>	 <!-- Poate altcineva presupunea ca alta academie este cel																						 mai scurt drum de la incepator la profesionist -->
+			</article>
+			<br/>
+		</section>
+		
+		<aside class="side">
+			<h4>Daca vrei sa fii la curent cu cele mai noi oferte, urmareste-ne pe: </h4>
+			<ul class="social-icons">
+				<li><a href="#" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+				<li><a href="#" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+				<li><a href="#" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+				<li><a href="#" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+			</ul>
+		</aside>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
-
-  </head>
-
-  <body>
-    <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle">
-      <i class="fa fa-bars"></i>
-    </a>
-    <nav id="sidebar-wrapper">
-      <ul class="sidebar-nav">
-        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle">
-          <i class="fa fa-times"></i>
-        </a>
-        <li>
-          <a class="js-scroll-trigger" href="#top">Viziune de ansamblu</a>
-        </li>
-        <li>
-          <a class="js-scroll-trigger" href="#about">Sa ne cunoastem</a>
-        </li>
-        <li>
-          <a class="js-scroll-trigger" href="#pasiuni">Pasiuni, aptitudini si interese</a>
-        </li>
-        <li>
-          <a class="js-scroll-trigger" href="#portfolio">Portofoliu</a>
-        </li>
-        <li>
-          <a class="js-scroll-trigger" href="#contact" onclick=$( "#menu-close").click();>Contact</a>
-        </li>
-      </ul>
-      <br>
-            <ul class="list-inline pull-down">
-              <li class="list-inline-item">
-                <a href="https://www.facebook.com/ALEXANDRU1997">
-                  <i class="fa fa-facebook fa-fw fa-3x"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/tapirdea-alexandru-a8b4b3139/">
-                  <i class="fa fa-linkedin fa-fw fa-3x"></i>
-                </a>
-              </li>
-            </ul>
-
-            
-    </nav>
-
-    <!-- Header -->
-    <header class="header" id="top">
-    </header>
-
-    <!-- About -->
-    <section id="about" class="about">
-      <div class="container text-center">
-      		<p class="text-preference">Acest portofoliu contine cateva dintre cele mai bune lucrari ale mele.</p>
-      		<p class="text-preference">De asemenea puteti gasi o lista a tehnologiilor cu care lucrez, date de contact , C.V. si multe altele</p>
-      		<p class="text-preference">Sunt deschis pentru oferte</p>
-           <a href="#about" class="btn btn-dark btn-lg js-scroll-trigger pull">Afla mai multe</a>
-      </div>
-      <!-- /.container -->
-    </section>
-
-    <!-- Services -->
-    <section id="services" class="services bg-primary text-white">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-lg-10 mx-auto">
-            <h2>Sa ne cunoastem</h2>
-            <br>
-            <img src="img/poza.png" alt="Poza de profil " class="img-profil img-fluid">
-            <hr class="small">
-            <div class="row">
-              <div class="col-md-4 col-sm-6">
-                <div class="service-item">
-                  <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-university fa-stack-1x text-primary"></i>
-                  </span>
-                  <h4>
-                    <strong>Educatie si formare:</strong>
-                  </h4>
-                  <p>Sunt student la Facultatea de Matematica si Informatica din cadrul Universitatii din Bucuresti, sectia Informatica.</p>
-                  <a href="img/CV_Alexandru_Tapirdea_ro.pdf" class="btn btn-light">Afla mai multe</a>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6">
-                <div class="service-item">
-                  <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-briefcase fa-stack-1x text-primary"></i>
-                  </span>
-                  <h4>
-                    <strong>Experienta:</strong>
-                  </h4>
-                  <p>In momentul de fata invat React si Vue la DevAcademy</p>
-                  <p>Internship pe web-development , in cadrul ORTEC CEE .</p>
-                  <a href="img/CV_Alexandru_Tapirdea_ro.pdf" class="btn btn-light">Afla mai multe</a>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6">
-                <div class="service-item">
-                  <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-code fa-stack-1x text-primary"></i>
-                  </span>
-                  <h4>
-                    <strong>Tehnologii folosite:</strong>
-                  </h4>
-                  <ul>
-                  <li>HTML5</li>
-                  <li>CSS3+Less/Sass</li>
-                  <li>BootStrap</li>
-                  <li>JavaScript</li>
-                  <li>jQuery</li>
-                  <li>AngularJs</li>
-                  <li>ASP.NET MVC5</li>
-                  <li>C#</li>
-                  <li>Jira</li>
-                  <a href="img/CV_Alexandru_Tapirdea_ro.pdf" class="btn btn-light">Afla mai multe</a>
-                </div>
-              </div>
-                 </div>
-            </div>
-            <!-- /.row (nested) -->
-          </div>
-          <!-- /.col-lg-10 -->
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-
-    <!-- Callout -->
-    <aside class="callout">
-      <div class="text-vertical-center" id="pasiuni">
-        <h1>Pasiuni, aptitudini si interese:</h1>
-        <h3 class="color"><strong>Valori in care cred ? </h3>
-        <h4> Intodeauna mi-a placut sa ma implic in cauze nobile, intrucat consider ca fiecare dintre noi are potentialul
-         sa faca ordine in dezordine si sa contribuie , poate chiar prin actiuni marunte, la marile schimbari.</h4>
-         <h3 class="color"> Ce imi place sa fac? <h3>
-         <h4> In timpul liber citesc (de la carti istorice pana la beletristrica si romane S.F. ).</h4>
-         <h3 class="color"> Obiectiv profesional? <h3>
-         <h4> Poate ca sunt prea ambitios, dar imi doresc sa ajung, candva, sa lucrez in bio-informatica sau detin o pozitie care sa imi permita
-          	sa fac lumea putin mai buna decat este astazi.</h4>
-          	<h4>Da, poate ca pare un obiectiv prea ambitios, dar viata este plina de surprize.</h4>
-
-      </div>
-    </aside>
-
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10 mx-auto text-center">
-            <h2>Proiecte personale:</h2>
-            <hr class="small">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="#">
-                    <img class="img-portfolio img-fluid" src="img/bg.jpg">
-                  </a>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="https://alexandrutapirdea.000webhostapp.com/PORTOFOLIU/BootStrap.html">
-                    <img class="img-portfolio img-fluid" src="img/InstaShop.png">
-                  </a>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="https://alexandrutapirdea.000webhostapp.com/PORTOFOLIU/SplashScreen.html">
-                    <img class="img-portfolio img-fluid" src="img/SplashScreen.png">
-                  </a>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="http://cariere.as-mi.ro/">
-                    <img class="img-portfolio img-fluid" src="img/front cariere site.png">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- /.row (nested) -->
-            <a href="#" class="btn btn-dark">Vezi mai multe</a>
-          </div>
-          <!-- /.col-lg-10 -->
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-
-    <!-- Call to Action -->
-    <aside class="call-to-action bg-primary text-white">
-      <div class="container text-center">
-        <h3>Daca ti-am captat atentia, de aici poti imi poti descarca C.V-ul.</h3>
-        <a href="img/CV_Alexandru_Tapirdea_ro.pdf" class="btn btn-lg btn-light">Descarca C.V.</a>
-        <a href="https://www.linkedin.com/in/tapirdea-alexandru-a8b4b3139/" class="btn btn-lg btn-dark">LinkedIn</a>
-      </div>
-    </aside>
+		<footer class="footer">&copy;DareIT Academy . Site realizat de Alexandru Tăpîrdea</footer>
 
 
-    <!-- Footer -->
-    <footer>
-      <div class="container" id="contact">
-        <div class="row">
-          <div class="col-lg-10 mx-auto text-center">
-            <h4>
-              <strong>Alexandru Tapirdea- Web Developer</strong>
-            </h4>
-            <p>Bucuresti</p>
-            <ul class="list-unstyled">
-              <li>
-                <i class="fa fa-phone fa-fw"></i>
-                0723563314</li>
-              <li>
-                <i class="fa fa-envelope-o fa-fw"></i>
-                <a href="mailto:name@example.com">tapirdea.alexandru@yahoo.com</a>
-              </li>
-            </ul>
-            <br>
-            <ul class="list-inline">
-              <li class="list-inline-item">
-                <a href="https://www.facebook.com/ALEXANDRU1997">
-                  <i class="fa fa-facebook fa-fw fa-3x"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/tapirdea-alexandru-a8b4b3139/">
-                  <i class="fa fa-linkedin fa-fw fa-3x"></i>
-                </a>
-              </li>
-            </ul>
-            <hr class="small">
-            <p class="text-muted">Copyright &copy; Alexandru Tapirdea 2017</p>
-          </div>
-        </div>
-      </div>
-      <a id="to-top" href="#top" class="btn btn-dark btn-lg js-scroll-trigger">
-        <i class="fa fa-chevron-up fa-fw fa-1x"></i>
-      </a>
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/stylish-portfolio.js"></script>
-
-  </body>
+	</div>
+</body>
 
 </html>
